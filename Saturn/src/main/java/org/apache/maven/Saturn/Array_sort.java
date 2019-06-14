@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class Array_sort {
 
+	private static Scanner s;
+
 	public static void main(String[] args) {
 		int n, temp;
-        Scanner s = new Scanner(System.in);
+        s = new Scanner(System.in);
         System.out.print("Enter no. of elements you want in array:");
         n = s.nextInt();
         int a[] = new int[n];
